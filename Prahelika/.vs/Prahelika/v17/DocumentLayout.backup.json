@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\YTQuizChampion\\QS\\Prahelika\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|c:\\ytquizchampion\\qs\\prahelika\\quiz.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|solutionrelative:quiz.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|c:\\ytquizchampion\\qs\\prahelika\\pannel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|solutionrelative:pannel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|C:\\YTQuizChampion\\QS\\Prahelika\\quiz.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|solutionrelative:quiz.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|C:\\YTQuizChampion\\QS\\Prahelika\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|C:\\YTQuizChampion\\QS\\Prahelika\\leaderboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC9D9FB-8720-4281-BEEB-DCA3881FAF11}|Prahelika.csproj|solutionrelative:leaderboard.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pannel.html",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\Prahelika\\Pannel.html",
+              "RelativeDocumentMoniker": "Pannel.html",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\Prahelika\\Pannel.html",
+              "RelativeToolTip": "Pannel.html",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAYwHAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-20T10:01:51.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Quiz.aspx.cs",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\Prahelika\\Quiz.aspx.cs",
+              "RelativeDocumentMoniker": "Quiz.aspx.cs",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\Prahelika\\Quiz.aspx.cs",
+              "RelativeToolTip": "Quiz.aspx.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T18:25:19.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Quiz.aspx",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\Prahelika\\Quiz.aspx",
+              "RelativeDocumentMoniker": "Quiz.aspx",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\Prahelika\\Quiz.aspx",
+              "RelativeToolTip": "Quiz.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-17T18:24:03.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\Prahelika\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\Prahelika\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-17T07:30:33.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Leaderboard.aspx.designer.cs",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\Prahelika\\Leaderboard.aspx.designer.cs",
+              "RelativeDocumentMoniker": "Leaderboard.aspx.designer.cs",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\Prahelika\\Leaderboard.aspx.designer.cs",
+              "RelativeToolTip": "Leaderboard.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T05:15:46.441Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
