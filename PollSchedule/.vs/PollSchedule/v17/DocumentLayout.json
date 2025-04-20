@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\YTQuizChampion\\QS\\PollSchedule\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|C:\\YTQuizChampion\\QS\\PollSchedule\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|c:\\ytquizchampion\\qs\\pollschedule\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|C:\\YTQuizChampion\\QS\\PollSchedule\\responseprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|solutionrelative:responseprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|C:\\YTQuizChampion\\QS\\PollSchedule\\dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|solutionrelative:dbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|C:\\YTQuizChampion\\QS\\PollSchedule\\quizsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|solutionrelative:quizsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|C:\\YTQuizChampion\\QS\\PollSchedule\\youtubefetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF2AD095-CBAD-411D-89C4-7BD3AB926DC6}|PollSchedule.csproj|solutionrelative:youtubefetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuizSession.cs",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\PollSchedule\\QuizSession.cs",
+              "RelativeDocumentMoniker": "QuizSession.cs",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\PollSchedule\\QuizSession.cs",
+              "RelativeToolTip": "QuizSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:09:23.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YouTubeFetcher.cs",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\PollSchedule\\YouTubeFetcher.cs",
+              "RelativeDocumentMoniker": "YouTubeFetcher.cs",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\PollSchedule\\YouTubeFetcher.cs",
+              "RelativeToolTip": "YouTubeFetcher.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAkwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:25:48.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseProcessor.cs",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\PollSchedule\\ResponseProcessor.cs",
+              "RelativeDocumentMoniker": "ResponseProcessor.cs",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\PollSchedule\\ResponseProcessor.cs",
+              "RelativeToolTip": "ResponseProcessor.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:24:33.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbHelper.cs",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\PollSchedule\\DbHelper.cs",
+              "RelativeDocumentMoniker": "DbHelper.cs",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\PollSchedule\\DbHelper.cs",
+              "RelativeToolTip": "DbHelper.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAlwFgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:22:14.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\PollSchedule\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\PollSchedule\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-11T08:29:13.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\YTQuizChampion\\QS\\PollSchedule\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\YTQuizChampion\\QS\\PollSchedule\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAApwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:32:35.286Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

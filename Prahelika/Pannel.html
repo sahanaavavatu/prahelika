@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Golden Box Reveal Game</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h2 {
+            color: gold;
+            margin-bottom: 40px;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .box {
+            width: 130px;
+            height: 130px;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+
+        .inner-box {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+
+        .box.selected .inner-box {
+            box-shadow: 0 0 15px gold;
+            border: 2px solid gold;
+            transform: scale(1.05);
+        }
+
+        .box.revealed .inner-box {
+            transform: rotateY(180deg);
+        }
+
+        .front, .back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 10px;
+        }
+
+        .front {
+            background-image: url('images/a.png'); /* Golden box image */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .back {
+            background-color: #222;
+            color: gold;
+            transform: rotateY(180deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 10px 25px;
+            background-color: gold;
+            color: black;
+            font-weight: bold;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            button:hover {
+                background-color: #ffd700;
+            }
+    </style>
+</head>
+<body>
+
+    <h2>Select a Golden Box to Reveal Your Surprise!</h2>
+
+    <div class="boxes" id="boxContainer"></div>
+
+    <button onclick="revealBox()">Reveal</button>
+
+    <script>
+        const contents = [
+            "కమ్యూనిస్ట్ ల గురించి చెప్పండి ",
+            "మీ ద్వారా రెండవ స్థానం లో ఉన్నవారు శివ పురాణం గెలుచుకున్నారు",
+            "సాయి భక్తుల గురించి మీ ఉద్దేశం చెప్పండి",
+            "తరువాత వారం ప్రశ్నలు మీరే ఇవ్వాలి",
+            "Cool..Nothing to do"
+        ];
+
+        let selectedBox = null;
+
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function generateBoxes() {
+            const shuffled = shuffle([...contents]);
+            const container = document.getElementById("boxContainer");
+            container.innerHTML = "";
+
+            shuffled.forEach(content => {
+                const box = document.createElement("div");
+                box.className = "box";
+                box.setAttribute("data-content", content);
+
+                box.innerHTML = `
+                        <div class="inner-box">
+                            <div class="front"></div>
+                            <div class="back">${content}</div>
+                        </div>
+                    `;
+
+                box.addEventListener("click", () => {
+                    if (box.classList.contains("revealed")) return;
+                    document.querySelectorAll(".box").forEach(b => b.classList.remove("selected"));
+                    box.classList.add("selected");
+                    selectedBox = box;
+                });
+
+                container.appendChild(box);
+            });
+        }
+
+        function revealBox() {
+            if (!selectedBox) {
+                alert("Please select a box first!");
+                return;
+            }
+            selectedBox.classList.add("revealed");
+            selectedBox.classList.remove("selected");
+            selectedBox = null;
+        }
+
+        window.onload = generateBoxes;
+    </script>
+
+</body>
+</html>
